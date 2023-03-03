@@ -17,7 +17,11 @@ It should query for text completion. (https://platform.openai.com/docs/guides/co
 
 Your API should return a JSON response of the result returned by OpenAI.
 
-How will you evaluate different prompts? What if we want to change prompts frequently? What else should we look out for as we use this service repeatedly? How can we create a repeatable and scalable solution - assume that we will require many such prompt endpoints in future.
+Some questions to think about - we would like to hear your thoughts on these (and if possible, some simple codified solutions)
+- How will you evaluate different prompts?
+- What if we want to change prompts frequently?
+- What else should we look out for as we use this service repeatedly?
+- How can we create a repeatable and scalable solution - assume that we will require many such prompt endpoints in future.
 
 We work in python and javascript so prefer solutions in those languages, but you're free to use whichever language/framework you're most comfortable with.
 
