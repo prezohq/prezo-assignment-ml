@@ -4,7 +4,7 @@ Hi there, thanks for your interest in Prezo. We are excited to work with builder
 
 A common need when working on Prezo is to come up with good prompts for AI enabled workflows. Your mission, should you choose to accept it, is to create a few such good prompts and host them behind an endpoin.
 
-Requirements
+## Requirements
 You are building an API endpoint that can take the following actions on text sent to it.
 - rewrite text
 - reduce text
@@ -17,20 +17,20 @@ It should query for text completion. (https://platform.openai.com/docs/guides/co
 
 Your API should return a JSON response of the result returned by OpenAI.
 
-How will you evaluate different prompts? What if we want to change prompts frequently? What else should we look out for as we use this service repeatedly?
+How will you evaluate different prompts? What if we want to change prompts frequently? What else should we look out for as we use this service repeatedly? How can we create a repeatable and scalable solution - assume that we will require many such prompt endpoints in future.
 
 We work in python and javascript so prefer solutions in those languages, but you're free to use whichever language/framework you're most comfortable with.
 
-Deliverables
-Create a repo with your code in it.
+## Deliverables
+- Create a repo with your code in it.
 
-Host it on render/railway/heroku/or any other service with free tier.
+- Host it on render/railway/heroku/or any other service with free tier.
 
-Record a short video walking us through how you crushed this
+- Record a short video walking us through how you crushed this
 
-Share the repo, the video and the hosted app with us
+- Share the repo, the video and the hosted app with us
 
 If you are out of OpenAI credits, contact us for a key.
 
-Resources
-OpenAI docs
+## Resources
+OpenAI docs (https://platform.openai.com/docs/introduction)
